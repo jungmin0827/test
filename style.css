@@ -1,0 +1,571 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+
+}
+
+img {
+  width: 50%;
+}
+header {
+  background-color: rgb(12, 12, 255);
+  /*     height: 90px; */
+  color: white;
+  line-height: 80px;
+}
+
+header > div {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+header > div > div {
+  display: flex;
+}
+
+header span {
+  padding: 0 20%;
+}
+header span:hover {
+  background-color: rgb(4, 21, 66);
+}
+header > div > div > p {
+  font-size: 34px;
+  margin-right: 40px;
+  /*     margin: 25px;
+  margin-top: 20px; */
+}
+
+header div div img {
+  width: 150px;
+  height: 60px;
+  line-height: 85px;
+}
+
+header div nav {
+  font-size: 20px;
+}
+
+header div nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+header div nav ul li {
+  padding: 0 20px;
+}
+
+header div nav ul li:hover {
+  color: rgb(58, 56, 53);
+}
+
+main {
+  background: gray;
+  display: flex;
+  outline: 2px solid white;
+}
+
+main .main-01 {
+  width: 100%;
+  height: 850px;
+  background: url(images/main01.png) no-repeat;
+  background-size: cover;
+  background-position: top center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-01 {
+  color: white;
+  line-height: 2rem;
+}
+
+.main-01 h1 {
+  line-height: 3.5rem;
+  font-family: ;
+}
+
+.text-button2 {
+  display: flex;
+}
+
+.text-button2 p {
+  font-size: 0.8rem;
+  border: 2px solid;
+  text-align: center;
+  margin: 20px 10px 20px 0;
+  padding: 0 4px;
+}
+
+main .main-02 {
+  color: white;
+  background-color: rgba(11, 11, 215, 0.986);
+  width: 100%;
+  height: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-02 {
+  text-align: center;
+}
+.main-02 > div > :nth-child(2) {
+  margin-top: 50px;
+  width: 350px;
+  height: 450px;
+}
+
+.main-02 > div > :nth-child(3) {
+  margin-top: 25px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 3rem;
+}
+
+.main-02 > div > :nth-child(4) {
+  margin-top: 20px;
+  text-align: right;
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  line-height: 3rem;
+  margin-left: 60%;
+}
+.main-02 > div > :nth-child(6) {
+  position: absolute;
+  top: 35%;
+  left: 55%;
+  font-size: 55px;
+}
+
+.main-02 > div > :nth-child(7) {
+  position: absolute;
+
+  top: 35%;
+  left: 93%;
+  font-size: 55px;
+}
+
+.main-02 > div > :nth-child(4):hover {
+  background-color: rgb(248, 241, 241);
+  color: black;
+  font-weight: bold;
+}
+.main-02 > div > :nth-child(5) {
+  text-align: right;
+  font-size: 15px;
+  text-align: center;
+}
+
+.main-02 > div hr {
+  width: 50px;
+}
+
+main > :last-child img {
+  width: 450px;
+}
+
+main .main-02 > div {
+  width: 50%;
+}
+.text02 {
+  position: absolute;
+  color: white;
+  top: 55%;
+  left: 65%;
+}
+.text02 > :nth-child(1) {
+  margin-left: -120px;
+}
+
+.text02 > :nth-child(2) {
+  margin-left: 350px;
+  margin-top: -35px;
+}
+.text02 > :nth-child(2):hover {
+  color: azure;
+}
+.text02 > :nth-child(3) {
+  line-height: 3.5rem;
+  margin-left: 365px;
+  font-size: 13px;
+}
+.text02 hr {
+  width: 150px;
+}
+
+.list {
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 25px;
+}
+
+.list > :first-child {
+  width: 260px;
+  margin-right: 120px;
+  margin-top: 25px;
+}
+
+.text-view > :nth-child(1) {
+  color: rgb(228, 5, 5);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.text-view > :nth-child(2) {
+  font-size: 30px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.text-view > :nth-child(3) {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+.text-view > :nth-child(4) {
+  font-size: 35px;
+  margin-top: 25px;
+}
+.text-view > :nth-child(4):hover {
+  color: rgb(126, 121, 121);
+}
+.text-view > :nth-child(5) {
+  font-size: 35px;
+  margin-left: 25px;
+  margin-top: -54px;
+}
+.text-view > :nth-child(5):hover {
+  color: rgb(126, 121, 121);
+}
+
+.list > :last-child {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list section > div {
+  width: 150%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 80px 25%;
+  transition: 0.8s;
+  cursor: pointer;
+
+  margin-left: -55px;
+}
+.list > div > section {
+  margin: 10px;
+}
+
+.list > :last-child > :nth-child(1) {
+  background: url(images/section01.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 150%;
+}
+.list > :last-child > :nth-child(1):hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+.list > :last-child h1 {
+  color: white;
+  font-size: 10px;
+  margin-top: 205px;
+}
+.list > :last-child P {
+  font-size: 20px;
+  line-height: 2.5em;
+  color: white;
+}
+.list > :last-child Span {
+  color: white;
+}
+.list > div > section > div > :nth-child(3) {
+  font-size: 15px;
+}
+
+.list > div > section > div > :nth-child(4) {
+  border: 1px solid;
+  border-radius: 5%;
+  text-align: center;
+  line-height: 3rem;
+  width: 160px;
+  height: 50px;
+  margin-top: 5px;
+}
+
+.list > :last-child Span:hover {
+  color: antiquewhite;
+}
+.list > :last-child > :nth-child(2) {
+  background: url(images/section02.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 150%;
+  padding: 0 -50px;
+}
+
+.list > :last-child > :nth-child(2):hover {
+  background: rgba(6, 5, 5, 0.7);
+}
+
+.list > :last-child > :nth-child(3) {
+  background: url(images/section03.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 150%;
+}
+
+.list > :last-child > :nth-child(3):hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.list-2 {
+  background-color: rgb(14, 14, 216);
+  width: 1500px;
+  height: 800px;
+  margin: 10px auto;
+}
+
+.list-2 HR {
+  width: 250px;
+  margin: 20px 1px;
+}
+
+.leading-plus {
+  position: relative;
+  color: aliceblue;
+  top: 300px;
+  left: 80px;
+}
+.leading-plus > :nth-child(1) {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.leading-plus > :nth-child(2) {
+  margin-top: 25px;
+}
+
+.leading-plus > :nth-child(3) {
+  font-size: 20px;
+  margin-top: 25px;
+  border: 2px solid white;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+.leading-plus > :nth-child(3):hover {
+  background-color: gray;
+}
+.leading-plus > :nth-child(4) {
+  font-size: 20px;
+  margin-top: -25px;
+  margin-left: 35px;
+  border: 2px solid white;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+.leading-plus > :nth-child(4):hover {
+  background-color: gray;
+}
+
+.list2-text {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 25%;
+  color: aliceblue;
+}
+
+.list2-text > section {
+  margin-top: 14%;
+  margin-left: 25px;
+}
+.list2-text h1 {
+  color: red;
+}
+.list2-text > section > div > :nth-child(3) {
+  width: 250px;
+  margin-top: 20px;
+}
+
+.five-list {
+  width: 1500px;
+  margin: 0 45px;
+  display: flex;
+  justify-content: space-between;
+}
+.five-list section p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.five-list section {
+  margin-top: 50px;
+  color: white;
+  line-height: 2.5rem;
+
+  padding: 0 6%;
+  width: 500px;
+  height: 800px;
+}
+
+.five-list > :nth-child(1) {
+  background: url(images/article01.png) no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.five-list > :nth-child(2) {
+  background: url(images/article02.png) no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.five-list > :nth-child(3) {
+  background: url(images/article03.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.five-list > :nth-child(4) {
+  background: url(images/article04.png) no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.five-list > :nth-child(5) {
+  background: url(images/article05.png) no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.five-list section div {
+  background: rgba(248, 247, 255, 0.3);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.five-list section div:hover {
+  background: rgba(213, 10, 10, 0.7);
+  width: 200px;
+}
+
+.news-section {
+  padding: 50px;
+}
+.news-section > :nth-child(1) {
+  width: 1500px;
+}
+.news-section > :nth-child(1) > :nth-child(1) {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.news-section > :nth-child(1) > :nth-child(2) {
+  line-height: 5rem;
+  font-size: 35px;
+  margin-top: 25px;
+}
+.news-section > :nth-child(1) > :nth-child(3) {
+  background-color: red;
+  border: 2px solid red;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  line-height: 3rem;
+  color: white;
+  border-radius: 5%;
+  margin-left: 90%;
+}
+.news-section > :nth-child(1) > :nth-child(3):hover {
+  width: 55px;
+}
+
+.news-3 {
+  margin-top: 50px;
+  display: flex;
+}
+.news-3 > section > div {
+  width: 190%;
+}
+
+.shpae-logo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 35%;
+  width: 1550px;
+  height: 200px;
+  margin: 0 20px;
+  color: white;
+  text-align: center;
+  background-color: rgba(2, 2, 171, 0.949);
+}
+
+.shpae-logo img {
+  margin: 35px;
+  width: 50px;
+  height: 50px;
+}
+.shpae-logo img:hover {
+  background-color: azure;
+}
+
+footer {
+  margin-top: 130px;
+  width: 1500px;
+  height: 600px;
+}
+
+footer ul {
+  font-weight: bold;
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  outline: 2px solid;
+}
+.text-h {
+  margin-top: 95px;
+}
+
+footer div {
+  margin: 25px;
+  font-weight: bold;
+  line-height: 2rem;
+}
+.footer-text {
+  margin-top: 50px;
+}
+.call {
+  margin-left: 80%;
+  margin-top: -270px;
+  line-height: 3.5rem;
+}
